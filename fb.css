@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin: 30px auto;
+    width: 70%;
+
+}
+.text, .login-form{
+    width: 50%;
+}
+.fb-text{
+    padding-left: 21px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    width: 80%;
+    background: white;
+}
+form input{
+    margin: 5px;
+}
+.login, .new-acc{
+    border: none;
+    outline: none;
+}
+.login{
+    height: 30px;
+    margin: 5px;
+    background: blue;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+
+}
+a{
+    font-size: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+hr{
+    margin: 5px 0;
+}
+.new-acc{
+    height: 20px;
+    width: 100px;
+    font-size: 7px;
+    margin: 0 auto;
+    background: green;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+}
+.create{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+input{
+    padding: 5px;
+    font-size: 7px;
+}
+img{
+    height: 70px;
+}
+@media only screen and (max-width: 500px){
+    .text, .login-form{
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+}
