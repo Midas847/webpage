@@ -182,7 +182,7 @@ color: white;
 text-align: center;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) and (min-width: 200px){
     .navbar ul{
         display: none;
     }
@@ -214,12 +214,16 @@ text-align: center;
     }
     .container{
         flex-direction: column;
+        margin: 25px auto;
     }
     .card{
         margin: 10px;
         margin-bottom: 20px;
     }
-
+    .card img{
+        height: 100px;
+        width: 100px;
+    }
     .contact{
         padding: 15px;
     }
